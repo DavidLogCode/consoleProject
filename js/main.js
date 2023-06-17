@@ -28,6 +28,31 @@ const numberOfFilms = +prompt('Сколько фильмов вы уже пос�
         movies: {
             'logan': '8.1'
         } */
+// let i = 0;
+
+// while ( i < 2) {
+//     let filmName = prompt('Один из последних просмотренных фильмов?', '');
+//     let filmRating = prompt('На сколько оцените его?', '');
+
+//     if (filmName != null && filmRating != null & filmName != '' && filmRating != '' && filmName.length < 50) {
+//         personalMovieDB.movies[filmName] = filmRating;
+//         i++
+//     }
+//     console.log(personalMovieDB);
+// }
+
+// let i = 0;
+
+// do {
+//     let filmName = prompt('Один из последних просмотренных фильмов?', '');
+//     let filmRating = prompt('На сколько оцените его?', '');
+
+//     if (filmName != null && filmRating != null & filmName != '' && filmRating != '' && filmName.length < 50) {
+//         personalMovieDB.movies[filmName] = filmRating;
+//         i++
+//     }
+//     console.log(personalMovieDB);
+// }while ( i < 2);
 
 for (let i = 0; i < 2; i++) {
     let filmName = prompt('Один из последних просмотренных фильмов?', '');
